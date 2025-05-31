@@ -1,0 +1,180 @@
+/* Professional Color Palette:
+   Primary: #0D47A1 (dark blue)
+   Accent: #1976D2 (blue)
+   Background: #F4F6F8 (light gray)
+   Text: #212121 (dark gray)
+*/
+
+/* body {
+  background-color: #f4f6f8;
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  background-repeat: repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+body {
+  background-color: #f4f6f8;
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+  background-repeat: repeat;
+  background-size: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.editor-header {
+  width: 100%;
+  background-color: #0D47A1;
+  color: white;
+  padding: 18px 30px;     /* Reduced from 20px 40px */
+  text-align: center;
+  font-size: 1.5rem;      /* Slightly smaller for a tighter look */
+  font-weight: 500;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.editor-container {
+  max-width: 950px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.editor-heading {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #0D47A1;
+    text-align: center;
+    font-weight: 500;
+}
+
+.editor-title,
+.editor-tags,
+.editor-content {
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 14px 16px;
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #fefefe;
+  color: #212121;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.editor-title:focus,
+.editor-tags:focus,
+.editor-content:focus {
+  border-color: #1976D2;
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.2);
+  outline: none;
+}
+
+.editor-content {
+    min-height: 100px;
+    resize: vertical;
+    line-height: 1.5;
+}
+
+
+.editor-submit {
+  padding: 12px 24px;
+  background-color: #1976D2;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.editor-submit:hover {
+  background-color: #0D47A1;
+}
+
+
+/* Header styling */
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d47a1; /* Blue */
+  padding: 10px 40px;
+  color: white;
+  height: 60px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.avatar img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+/* Publish Button Style */
+.editor-publish {
+  background-color: #28a745;       /* Green color */
+  color: white;                    /* White text */
+  padding: 12px 24px;              /* Top/bottom 12px, left/right 24px */
+  border: none;                   /* Remove default border */
+  border-radius: 5px;             /* Rounded corners */
+  font-size: 16px;                /* Slightly larger text */
+  font-weight: 600;               /* Semi-bold */
+  cursor: pointer;                /* Pointer on hover */
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(40, 167, 69, 0.3);
+  margin-left: 10px;              /* Space from other buttons */
+}
+
+.editor-publish:hover {
+  background-color: #218838;      /* Darker green on hover */
+  box-shadow: 0 6px 8px rgba(33, 136, 56, 0.5);
+}
+
+.editor-publish:active {
+  background-color: #1e7e34;      /* Even darker on click */
+  box-shadow: 0 2px 4px rgba(30, 126, 52, 0.7);
+  transform: translateY(1px);     /* Slight press down effect */
+}
+
+
+.download-btn {
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.download-btn:hover {
+  background-color: #388e3c;
+}
